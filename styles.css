@@ -1,0 +1,279 @@
+  *
+    {
+      font-family: 'Times New Roman', Times, serif;
+    }
+     body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  background: #f8f8f8;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: white;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav a {
+ margin: 0 15px;
+  color: #333;
+  text-decoration: none;
+}
+
+.actions span {
+  margin-right: 10px;
+}
+
+.sign-in {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.tabs {
+  margin-top: 20px;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.tabs .active {
+  border-bottom: 2px solid black;
+  font-weight: bold;
+}
+
+.search-bar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+}
+.search-btn {
+  padding: 10px 20px;
+  background: #4c99af;
+  color: white;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+.interests-section {
+  padding: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.interests-section h2 {
+  margin-bottom: 5px;
+}
+
+.interests-section p {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.interests-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.interest-card {
+  flex: 1;
+  min-width: 150px;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.must-do-section {
+  align-items: center;
+  padding: 40px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.must-do-section h2 {
+  margin-bottom: 5px;
+}
+
+.must-do-section p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  min-width: 250px;
+  max-width: 250px;
+  flex-shrink: 0;
+ 
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card-info {
+  padding: 10px 12px;
+}
+
+.card-info h4 {
+  font-size: 15px;
+  margin: 8px 0;
+}
+
+.card-info p {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.card-info .price {
+  font-weight: bold;
+  color: #2a6f2a;
+}
+.iconic-section {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.iconic-section h2 {
+  margin-bottom: 20px;
+}
+
+.iconic-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.iconic-card {
+  min-width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.iconic-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.iconic-card p {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: transparent;
+  
+}
+.footer {
+  background-color: #f8f8f8;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  font-size: 14px;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-columns div {
+  margin-bottom: 20px;
+  min-width: 200px;
+}
+
+.footer-columns h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-columns ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-columns ul li {
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.footer-links a {
+  text-decoration: underline;
+  color: #000;
+}
+
+.footer-note {
+  color: #555;
+}
